@@ -95,7 +95,7 @@ export class GuiModel {
                             "name": "Ok"
                         }
                     ]
-                },
+                },               
                 {
                     "id": "AddActivityForm",
                     "title": "Activity",
@@ -145,6 +145,13 @@ export class GuiModel {
                             "color": "yellow",
                             "page": "locationspage",
                         },
+                        {
+                            "type": "button",
+                            "name": "Groups",
+                            "icon": "fa-weixin",
+                            "color": "wisteria",
+                            "page": "groupspage",
+                           },
                     ]
                 },
                 {

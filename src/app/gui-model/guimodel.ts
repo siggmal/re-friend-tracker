@@ -33,6 +33,14 @@ export class GuiModel {
                             "name": "Nickname",
                             "width": 2,
                             "required": true
+                           },
+                           {
+                            "id": "group",
+                            "type": "autocomplete",
+                            "name": "Group",
+                            "url": "/group",
+                            "form": "GroupForm",
+                            "width": 2
                            },                           
                         {
                             "id":   "location",

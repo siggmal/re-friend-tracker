@@ -215,7 +215,7 @@ export class GuiModel {
                            {
                             "type": "button",
                             "name": "Activities",
-                            "icon": "fa-weixin",
+                            "icon": "fa-running",
                             "color": "pink",
                             "page": "activitiespage",
                            },
@@ -313,7 +313,7 @@ export class GuiModel {
                     {
                     "type": "newButton",
                     "name": "NewActivity",
-                    "icon": "fa-weixin",
+                    "icon": "fa-running",
                     "color": "green",
                     "form": {
                     "form": "ActivityForm"
@@ -321,7 +321,7 @@ export class GuiModel {
                     },
                     {
                         "type": "list",
-                        "icon": "fa-weixin",
+                        "icon": "fa-running",
                         "color": "wisteria",
                         "search": true,
                         "url": "/activity",
